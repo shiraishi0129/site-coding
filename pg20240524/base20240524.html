@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casteria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./pc20240524.css">
+</head>
+
+
+
+<body>
+    <header class="header">
+        <h1 class="title">Casteria</h1>
+        <nav class="nav">
+                <ul id="nav-list" class="nav-list">
+                    <li class="nav-item"><a href="">Home</a></li>
+                    <li class="nav-item"><a href="">Food</a></li>
+                    <li class="nav-item"><a href="">Drink</a></li>
+                    <li class="nav-item"><a href="">お問い合わせ</a></li>
+                
+                    <input type="search" placeholder="search" style="display: inline-block;">
+                    <button style="display: inline-block;">Search</button>
+                </ul>
+                
+            <div id="burger-menu" class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>  
+
+<div id="border" class="border">
+    <div class="swiperContainer">
+        <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="../img/interior.jpg" alt=""/>
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/restaurant2.jpg" alt=""/>
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/food.jpg" alt=""/>
+            </div>
+            <div class="swiper-slide">
+                <img src="../img/food2.jpg" alt=""/>
+            </div>
+        </div>
+        <!-- ページネーション -->
+        <div class="swiper-pagination"></div>
+        <!-- 前後の矢印 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+            <!-- スクロールバー -->
+            <div class="swiper-scrollbar"></div>
+    </div>
+
+<section id="main">
+    <h1 class="text-title">新型コロナウイルスに対する取り組みの最新情報をご案内</h1>
+    
+    <h3 class="text-sub-title text-background-color accordion-title">■衛生面に関して</h3>
+        <ul class="text-list">
+            <li class="text">マスクを着用しての接客</li>
+            <li class="text">出勤前の検温の徹底</li>
+            <li class="text">レジカウンターやドリンクの受け渡し口等への飛沫防止ガードの設置</li>
+            <li class="text">より頻度の高い手洗いの励行</li>
+            <li class="text">テーブルにお客様専用の消毒用アルコールの設置</li>
+            <li class="text">従業員間の距離確保のため、休憩や研修時の客席利用</li>
+        </ul>
+
+        <h3 class="text-sub-title text-background-color accordion-title">■お客様へのお願い</h3>
+            <ul class="text-list">
+                <li class="text">店内では、飲食事以外のマスク着用をお願いいたします</li>
+                <li class="text">入店時の手指の消毒にご協力ください</li>
+                <li class="text">レジに並ぶ際、目安を示すフロアステッカーに沿った列感覚の確保にご協力ください</li>
+                <li class="text">多数でお越しの際は、お1人がまとめて注文願います</li>
+                <li class="text">発熱や体調不良の際はご入店をお控えください</li>
+            </ul>
+
+        <h3 class="text-sub-title text-background-color accordion-title">■サービスに関して</h3>
+            <ul class="text-list">
+                <li class="text">直接お渡しする商品の提供、金銭授受時にグローブの着用</li>
+                <li class="text">ドリンクやフードのサンプリング中止</li>
+                <li class="text">地域活動・イベントの中止</li>
+                <li class="text">混雑時間帯の客席の譲り合いへのご協力お願いの実施</li>
+                <li class="text">店内設置しているミルク、はちみつ、パウダー類の一時引き下げ</li>
+                <li class="text">混雑状況に応じたドライブスルーサービスの一時休止や店内客席利用の制限</li>
+            </ul>
+
+
+    <section  id="Signature-food">
+        <div class="scroll" style="overflow: hidden;">
+            <h2 class="text-sub-title">Signature Food</h2>
+                <img src="../img/food.jpg" alt="サーモン料理" class="section-img left">
+            <div class="text">サーモンは刺身やカルパッチョで食べるのがおいしいですがリッチな気分になれるサーモンステーキがおすすめです。</div>
+        </div>
+    </section>
+
+    <section id="Our-coffee"  style="overflow: hidden;">
+        <div class="scroll" >
+            <h2 class="text-sub-title ">Our Coffee</h2>
+                <img src="../img/barista.jpg" alt="コーヒー" class="section-img left">
+            <div class="text">当店のコーヒー豆が厳選して世界中から買い付けています。そして、そのコーヒー豆のおいしさを最大限に引き出すために自社のロースタリ―で焙煎しています。</div>
+        </div>
+    </section>
+
+    <section id="Our-food"  style="overflow: hidden;">
+        <div style="background-color: black;"></div>
+        <div class="scroll" style="margin: auto;">
+            <h2 class="text-sub-title">Our Food</h2>
+                <img src="../img/food3.jpg" alt="食材" class="section-img left">
+            <div class="text">当店はなによりまずは衛生管理に気を付けています。「安全・安心」をお届けするために日々断続的な努力を惜しみません。</div>
+        </div>
+    </section>
+
+    <section id="Address" >
+        <div class="Address-back">
+            <div class="scroll">
+                <div style="color: white;">
+                        <img src="../img/barista.jpg" alt="コーヒー" style="padding: 20px; float: right;" id="Address-img1">
+                    <h2 class="text-sub-title margin" style="overflow: hidden;">Address</h2>
+                    <div class="text">681 xxxx Drive, xxxxx xxxx #01 - 06 000000</div>
+                    <h2 class="text-sub-title" style="overflow: hidden;">Opening Hours</h2>
+                    <div class="text">Monday - Friday: 10am - 9pm</div>
+                    <div>
+                        <img src="../img/barista.jpg" alt="コーヒー" style="padding: 20px;" id="Address-img2" class="section-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section >
+            <div id="dshop">
+                <h2 style="text-align: center;" class="text-sub-title">店舗一覧</h2>
+                <ul class="map-list-img" style="display: flex; justify-content:space-between;">
+                        <li class="ul-dlist"><img src="../img/restaurant2.jpg" alt="レストラン2" class="imgrad">
+                    <div class="text-shop">東京都渋谷区xxxxxx xxxxx</div></li>
+                        <li class="ul-dlist"><img src="../img/restaurant3.jpg" alt="レストラン3" class="imgrad">
+                    <div class="text-shop">東京都渋谷区xxxxxx xxxxx</div></li>
+                        <li class="ul-dlist"><img src="../img/restaurant4.jpg" alt="レストラン4" class="imgrad">
+                    <div class="text-shop">東京都渋谷区xxxxxx xxxxx</div></li>
+                        <li class="ul-dlist"><img src="../img/restaurant5.jpg" alt="レストラン5" class="imgrad">
+                    <div class="text-shop">東京都渋谷区xxxxxx xxxxx</div></li>
+                </ul>
+                </div>
+    </section>
+</div>
+    
+
+<footer id="footer" class="footer">
+    <nav>
+        <ul class="float">
+            <li class="foot-list-item" ><a href="#">プライバシーポリシー</a></li>
+            <li class="foot-list-item" ><a href="#">お問い合わせ</a></li>
+            <li class="foot-list-item" ><a href="#">運営会社</a></li>
+        </ul>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./base20240524.js"></script>
+</body>
+
+</html>
