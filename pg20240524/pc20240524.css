@@ -319,13 +319,13 @@ nav{
 	}
 
 	.nav input{
-		left: 0;;
-		width: 88%;
+		left: 0;
+		width: 75%;
 	}
 
 	.nav button{
 		right: 0;
-		width: 10%;
+		width: 20%;
 	}
 
 	.burger{
